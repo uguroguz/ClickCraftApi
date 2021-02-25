@@ -1,0 +1,12 @@
+Authentication:
+verifyToken -> gets token password part
+Jwt verify -> verifies if the token is real and still active
+
+Charcter & user:
+-Username in character and username in user are the same. Meaning users can have only 1 character.
+-Character default values defined in app/register.
+-EditUser only updates password.
+-GetAllCharacter doesn't require any verification.
+
+Skills & Items:
+-All users can add/remove/edit items.
